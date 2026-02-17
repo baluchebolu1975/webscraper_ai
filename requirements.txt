@@ -1,0 +1,36 @@
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Optional: Advanced scraping (not currently implemented)
+# selenium>=4.15.0
+# playwright>=1.40.0
+
+# Future: Async support (not yet implemented)
+# aiohttp>=3.9.0
+
+# AI & NLP
+openai>=1.3.0
+
+# Optional: Advanced NLP features (not currently used)
+# langchain>=0.1.0
+# transformers>=4.35.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+tenacity>=8.2.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.0
