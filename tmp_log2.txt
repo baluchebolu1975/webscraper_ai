@@ -1,0 +1,238 @@
+SonarCloud Scan	SonarCloud Scan	﻿2026-02-23T07:06:29.2056407Z ##[group]Run SonarSource/sonarqube-scan-action@v6
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2056705Z with:
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2057065Z   args: -Dsonar.projectKey=baluchebolu1975_webscraper_ai -Dsonar.organization=baluchebolu1975
+SonarCloud Scan	SonarCloud Scan	
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2057478Z   projectBaseDir: .
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2057671Z   scannerVersion: 7.2.0.5079
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2058033Z   scannerBinariesUrl: https://binaries.sonarsource.com/Distribution/sonar-scanner-cli
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2058400Z env:
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2058633Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2059014Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2059379Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2059715Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2060184Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2060514Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2061207Z   GITHUB_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2061447Z   SONAR_TOKEN: ***
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2061628Z ##[endgroup]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2719154Z Installing Sonar Scanner CLI 7.2.0.5079 for linux-x64...
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.2720234Z Downloading from: https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-7.2.0.5079-linux-x64.zip
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:29.5884806Z [command]/usr/bin/unzip -o -q /home/runner/work/_temp/e0bd85bf-5c47-4436-b48d-227d7505eea9
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:30.8042357Z Sonar Scanner CLI cached to: /opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:30.8063006Z [command]/opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64/bin/sonar-scanner -Dsonar.projectBaseDir=. -Dsonar.projectKey=baluchebolu1975_webscraper_ai -Dsonar.organization=baluchebolu1975
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:31.0443548Z 07:06:31.041 INFO  Scanner configuration file: /opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64/conf/sonar-scanner.properties
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:31.0446010Z 07:06:31.044 INFO  Project root configuration file: /home/runner/work/webscraper_ai/webscraper_ai/sonar-project.properties
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:31.0549084Z 07:06:31.054 INFO  SonarScanner CLI 7.2.0.5079
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:31.0565422Z 07:06:31.056 INFO  Linux 6.11.0-1018-azure amd64
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:31.6907102Z 07:06:31.690 INFO  Communicating with SonarQube Cloud
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:31.6916107Z 07:06:31.691 INFO  JRE provisioning: os[linux], arch[x86_64]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:34.4489965Z 07:06:34.448 INFO  Starting SonarScanner Engine...
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:34.4502579Z 07:06:34.449 INFO  Java 21.0.9 Eclipse Adoptium (64-bit)
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:35.3237410Z 07:06:35.321 INFO  Load global settings
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:35.8337748Z 07:06:35.833 INFO  Load global settings (done) | time=509ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:35.8923519Z 07:06:35.891 INFO  Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:36.0993418Z 07:06:36.098 INFO  Loading required plugins
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:36.0994008Z 07:06:36.098 INFO  Load plugins index
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:36.2626315Z 07:06:36.260 INFO  Load plugins index (done) | time=162ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:36.2628231Z 07:06:36.261 INFO  Load/download plugins
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:36.8504469Z 07:06:36.849 INFO  Load/download plugins (done) | time=589ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.0688485Z 07:06:37.067 INFO  Loaded core extensions: a3s, architecture, sca
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.2959725Z 07:06:37.295 INFO  Process project properties
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.3143274Z 07:06:37.310 INFO  Project key: baluchebolu1975_webscraper_ai
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.3146343Z 07:06:37.311 INFO  Base dir: /home/runner/work/webscraper_ai/webscraper_ai
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.3147225Z 07:06:37.312 INFO  Working dir: /home/runner/work/webscraper_ai/webscraper_ai/.scannerwork
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.3236661Z 07:06:37.322 INFO  Found an active CI vendor: 'Github Actions'
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.3281401Z 07:06:37.327 INFO  Load project branches
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.5731582Z 07:06:37.571 INFO  Load project branches (done) | time=245ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.5786378Z 07:06:37.578 INFO  Load project settings for component key: 'baluchebolu1975_webscraper_ai'
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:37.9310983Z 07:06:37.930 INFO  Load project settings for component key: 'baluchebolu1975_webscraper_ai' (done) | time=352ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.2990612Z 07:06:38.298 INFO  Check ALM binding of project 'baluchebolu1975_webscraper_ai'
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.4879644Z 07:06:38.487 INFO  Detected project binding: NOT_BOUND
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.4883592Z 07:06:38.487 INFO  Check ALM binding of project 'baluchebolu1975_webscraper_ai' (done) | time=190ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.4924221Z 07:06:38.492 INFO  Load project pull requests
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.6128911Z 07:06:38.612 INFO  Load project pull requests (done) | time=120ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.6181786Z 07:06:38.617 INFO  Load branch configuration
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.6188188Z 07:06:38.618 INFO  Github event: push
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.6220613Z 07:06:38.621 INFO  Auto-configuring branch main
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.6231041Z 07:06:38.622 INFO  Load branch configuration (done) | time=4ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:38.6344654Z 07:06:38.633 INFO  Load quality profiles
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:39.1110407Z 07:06:39.110 INFO  Load quality profiles (done) | time=476ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:39.1420132Z 07:06:39.139 INFO  Create analysis
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:39.4080333Z 07:06:39.407 INFO  Create analysis (done) | time=268ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:39.5229091Z 07:06:39.518 INFO  Load active rules
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.3872667Z 07:06:40.386 INFO  Load active rules (done) | time=866ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.5826371Z 07:06:40.580 INFO  Organization key: baluchebolu1975
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.5836202Z 07:06:40.580 INFO  Branch name: main, type: long-lived
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.6017098Z 07:06:40.601 INFO  Preprocessing files...
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.6973535Z 07:06:40.694 INFO  1 language detected in 6 preprocessed files (done) | time=91ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.6976025Z 07:06:40.695 INFO  14 files ignored because of inclusion/exclusion patterns
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.6978137Z 07:06:40.695 INFO  0 files ignored because of scm ignore settings
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.7698469Z 07:06:40.769 INFO  Loading plugins for detected languages
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:40.7705644Z 07:06:40.770 INFO  Load/download plugins
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.2287150Z 07:06:41.228 INFO  Load/download plugins (done) | time=457ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.4327285Z 07:06:41.431 INFO  Load project repositories
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6694449Z 07:06:41.669 INFO  Load project repositories (done) | time=239ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6823288Z 07:06:41.680 INFO  Indexing files...
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6823889Z 07:06:41.680 INFO  Project configuration:
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6825548Z 07:06:41.681 INFO    Excluded sources: **/__pycache__/**, **/*.pyc, .venv/**, venv/**, env/**, .pytest_cache/**, htmlcov/**, dist/**, build/**, *.egg-info/**, _before_fixes/**, .vscode/**, .qodo/**, **/build-wrapper-dump.json
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6826951Z 07:06:41.681 INFO    Excluded tests: tests/**, **/*_test.py, **/test_*.py
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6889310Z 07:06:41.685 INFO  6 files indexed (done) | time=4ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6962555Z 07:06:41.695 INFO  Quality profile for py: Sonar way
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.6963241Z 07:06:41.695 INFO  ------------- Run sensors on module WebScraper AI
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.7412479Z 07:06:41.740 INFO  Load metrics repository
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.8612563Z 07:06:41.860 INFO  Load metrics repository (done) | time=119ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.8697460Z 07:06:41.869 INFO  Sensor cache enabled
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:41.8754168Z 07:06:41.874 INFO  Load sensor cache
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:42.1592109Z 07:06:42.158 INFO  Load sensor cache (404) | time=283ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:43.0610749Z 07:06:43.060 INFO  Sensor Python Sensor [python]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:43.3682480Z 07:06:43.367 INFO  Starting global symbols computation
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:43.3713923Z 07:06:43.370 INFO  6 source files to be analyzed
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:43.7946971Z 07:06:43.793 INFO  6/6 source files have been analyzed
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:43.7958304Z 07:06:43.794 INFO  Finished step global symbols computation in 425ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:43.8321875Z 07:06:43.830 INFO  Starting rules execution
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:43.8380951Z 07:06:43.831 INFO  6 source files to be analyzed
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.0922911Z 07:06:47.091 INFO  6/6 source files have been analyzed
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.0933703Z 07:06:47.092 INFO  Finished step rules execution in 3261ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.0935762Z 07:06:47.092 INFO  The Python analyzer was able to leverage cached data from previous analyses for 0 out of 6 files. These files were not parsed.
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.0947118Z 07:06:47.094 INFO  Sensor Python Sensor [python] (done) | time=4034ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.0950423Z 07:06:47.094 INFO  Sensor Cobertura Sensor for Python coverage [python]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.1690592Z 07:06:47.168 INFO  Python test coverage
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.1710444Z 07:06:47.170 INFO  Parsing report '/home/runner/work/webscraper_ai/webscraper_ai/coverage.xml'
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.2336188Z 07:06:47.230 INFO  Sensor Cobertura Sensor for Python coverage [python] (done) | time=135ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.2337966Z 07:06:47.232 INFO  Sensor PythonXUnitSensor [python]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3016500Z 07:06:47.295 INFO  Processing report '/home/runner/work/webscraper_ai/webscraper_ai/test-results.xml'
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3029344Z 07:06:47.299 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3031040Z 07:06:47.299 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3032562Z 07:06:47.299 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3034032Z 07:06:47.299 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3035649Z 07:06:47.300 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3036953Z 07:06:47.300 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3038187Z 07:06:47.300 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3039432Z 07:06:47.300 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3042158Z 07:06:47.300 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3043799Z 07:06:47.300 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3045798Z 07:06:47.300 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3047192Z 07:06:47.301 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3048604Z 07:06:47.301 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3050149Z 07:06:47.301 WARN  The resource for 'tests.test_ai_analyzer' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3051654Z 07:06:47.303 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3087932Z 07:06:47.305 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3089516Z 07:06:47.305 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3091151Z 07:06:47.305 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3092626Z 07:06:47.306 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3094823Z 07:06:47.306 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3096236Z 07:06:47.306 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3097571Z 07:06:47.306 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3098907Z 07:06:47.306 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3100191Z 07:06:47.306 WARN  The resource for 'tests.test_scraper' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3101646Z 07:06:47.306 WARN  The resource for 'tests.test_utils' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3102887Z 07:06:47.307 WARN  The resource for 'tests.test_utils' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3104147Z 07:06:47.307 WARN  The resource for 'tests.test_utils' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3105499Z 07:06:47.307 WARN  The resource for 'tests.test_utils' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3117348Z 07:06:47.310 WARN  The resource for 'tests.test_utils' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3119125Z 07:06:47.311 WARN  The resource for 'tests.test_utils' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3120662Z 07:06:47.311 WARN  The resource for 'tests.test_utils' is not found, drilling down to the details of this test won't be possible
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3121905Z 07:06:47.311 INFO  Sensor PythonXUnitSensor [python] (done) | time=70ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3130050Z 07:06:47.312 INFO  Sensor Import of Pylint issues [python]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3399857Z 07:06:47.339 INFO  Sensor Import of Pylint issues [python] (done) | time=36ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3402081Z 07:06:47.339 INFO  Sensor Import of Bandit issues [python]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3402909Z 07:06:47.339 INFO  Importing /home/runner/work/webscraper_ai/webscraper_ai/bandit-report.json
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3479034Z 07:06:47.346 INFO  Sensor Import of Bandit issues [python] (done) | time=6ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3480904Z 07:06:47.346 INFO  Sensor Python Dependency Sensor [python]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3482318Z 07:06:47.347 INFO  Sensor Python Dependency Sensor [python] (done) | time=3ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3487238Z 07:06:47.348 INFO  Sensor SecurityPythonTelemetrySensor [securitypythonfrontend]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3493721Z 07:06:47.349 INFO  Sensor SecurityPythonTelemetrySensor [securitypythonfrontend] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3501227Z 07:06:47.349 INFO  Sensor Python HTML templates processing [securitypythonfrontend]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3560314Z 07:06:47.355 INFO  HTML files are not indexed : you may want to add them in the scanned files of this project to detect Python XSS vulnerabilities
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3567024Z 07:06:47.355 INFO  Sensor Python HTML templates processing [securitypythonfrontend] (done) | time=3ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3567939Z 07:06:47.356 INFO  Sensor IaC hadolint report Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3568615Z 07:06:47.356 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3569311Z 07:06:47.356 INFO  Sensor Java Config Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3648855Z 07:06:47.362 INFO  There are no files to be analyzed for the Java language
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3649668Z 07:06:47.362 INFO  Sensor Java Config Sensor [iac] (done) | time=7ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3650274Z 07:06:47.362 INFO  Sensor IaC Docker Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3691695Z 07:06:47.367 INFO  There are no files to be analyzed for the Docker language
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3692790Z 07:06:47.367 INFO  Sensor IaC Docker Sensor [iac] (done) | time=2ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3693434Z 07:06:47.367 INFO  Sensor IaC GitHub Actions Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3694148Z 07:06:47.368 INFO  There are no files to be analyzed for the GitHub Actions language
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3694936Z 07:06:47.368 INFO  Sensor IaC GitHub Actions Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3695776Z 07:06:47.368 INFO  Sensor IaC actionlint report Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3696492Z 07:06:47.368 INFO  Sensor IaC actionlint report Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3697163Z 07:06:47.368 INFO  Sensor IaC Shell Sensor [iac]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3697798Z 07:06:47.368 INFO  There are no files to be analyzed for the Shell language
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3698650Z 07:06:47.368 INFO  Sensor IaC Shell Sensor [iac] (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3699376Z 07:06:47.369 INFO  Sensor EnterpriseTextAndSecretsSensor [textenterprise]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3783245Z 07:06:47.377 INFO  Available processors: 4
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.3783762Z 07:06:47.377 INFO  Using 4 threads for analysis.
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.7205517Z 07:06:47.719 INFO  Start fetching files for the text and secrets analysis
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.7258952Z 07:06:47.723 INFO  Using Git CLI to retrieve dirty files
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.7721504Z 07:06:47.771 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.7723954Z 07:06:47.771 INFO  Starting the text and secrets analysis
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.7731375Z 07:06:47.772 INFO  6 source files to be analyzed for the text and secrets analysis
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8400718Z 07:06:47.839 INFO  6/6 source files have been analyzed for the text and secrets analysis
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8411135Z 07:06:47.840 INFO  Start fetching files for the binary file analysis
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8420745Z 07:06:47.840 INFO  There are no files to be analyzed for the binary file analysis
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8444336Z 07:06:47.843 INFO  Sensor EnterpriseTextAndSecretsSensor [textenterprise] (done) | time=477ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8447436Z 07:06:47.844 INFO  Sensor javabugs [dbd]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8510965Z 07:06:47.850 INFO  No IR files have been included for analysis.
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8514591Z 07:06:47.851 INFO  Sensor javabugs [dbd] (done) | time=7ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.8534602Z 07:06:47.853 INFO  Sensor pythonbugs [dbd]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:47.9025686Z 07:06:47.902 INFO  Analyzing 34/63 functions to detect bugs.
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:48.3921864Z 07:06:48.388 INFO  Sensor pythonbugs [dbd] (done) | time=536ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:48.3922609Z 07:06:48.388 INFO  Sensor PythonSecuritySensor [security]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:48.3945766Z 07:06:48.394 INFO  25 taint analysis rules enabled.
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.1211071Z 07:06:49.120 INFO  Analyzing 7523 UCFGs to detect vulnerabilities.
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.6932902Z 07:06:49.692 INFO  No entry points found.
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.6981333Z 07:06:49.697 INFO  python security sensor: Begin: 2026-02-23T07:06:48.390410003Z, End: 2026-02-23T07:06:49.695257441Z, Duration: 00:00:01.304
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.6991627Z   Load type hierarchy and UCFGs: Begin: 2026-02-23T07:06:48.394321459Z, End: 2026-02-23T07:06:49.117418352Z, Duration: 00:00:00.723
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.6993942Z     Load type hierarchy: Begin: 2026-02-23T07:06:48.394337519Z, End: 2026-02-23T07:06:48.559933106Z, Duration: 00:00:00.165
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.6995934Z     Load UCFGs: Begin: 2026-02-23T07:06:48.560048308Z, End: 2026-02-23T07:06:49.117214228Z, Duration: 00:00:00.557
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.6997558Z   Check cache: Begin: 2026-02-23T07:06:49.117752658Z, End: 2026-02-23T07:06:49.118466892Z, Duration: 00:00:00.000
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.6999030Z     Load cache: Begin: 2026-02-23T07:06:49.118115215Z, End: 2026-02-23T07:06:49.118132419Z, Duration: 00:00:00.000
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7000951Z   Create runtime call graph: Begin: 2026-02-23T07:06:49.118511573Z, End: 2026-02-23T07:06:49.381018812Z, Duration: 00:00:00.262
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7002549Z     Variable Type Analysis #1: Begin: 2026-02-23T07:06:49.119132990Z, End: 2026-02-23T07:06:49.263996616Z, Duration: 00:00:00.144
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7003897Z       Create runtime type propagation graph: Begin: 2026-02-23T07:06:49.119844649Z, End: 2026-02-23T07:06:49.182985089Z, Duration: 00:00:00.063
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7005110Z       Run SCC (Tarjan) on 16372 nodes: Begin: 2026-02-23T07:06:49.183346610Z, End: 2026-02-23T07:06:49.206667156Z, Duration: 00:00:00.023
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7006637Z       Propagate runtime types to strongly connected components: Begin: 2026-02-23T07:06:49.206791892Z, End: 2026-02-23T07:06:49.263924841Z, Duration: 00:00:00.057
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7008022Z     Variable Type Analysis #2: Begin: 2026-02-23T07:06:49.266197868Z, End: 2026-02-23T07:06:49.376123895Z, Duration: 00:00:00.109
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7009566Z       Create runtime type propagation graph: Begin: 2026-02-23T07:06:49.266205174Z, End: 2026-02-23T07:06:49.313064561Z, Duration: 00:00:00.046
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7010762Z       Run SCC (Tarjan) on 16202 nodes: Begin: 2026-02-23T07:06:49.313151909Z, End: 2026-02-23T07:06:49.329836296Z, Duration: 00:00:00.016
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7012141Z       Propagate runtime types to strongly connected components: Begin: 2026-02-23T07:06:49.329915656Z, End: 2026-02-23T07:06:49.376018138Z, Duration: 00:00:00.046
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7013444Z   Load config: Begin: 2026-02-23T07:06:49.381087267Z, End: 2026-02-23T07:06:49.643563048Z, Duration: 00:00:00.262
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7014470Z   Compute entry points: Begin: 2026-02-23T07:06:49.643627897Z, End: 2026-02-23T07:06:49.691918510Z, Duration: 00:00:00.048
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7015552Z 07:06:49.697 INFO  python security sensor peak memory: 757 MB
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7016264Z 07:06:49.697 INFO  Sensor PythonSecuritySensor [security] (done) | time=1308ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.7090869Z 07:06:49.708 INFO  ------------- Run sensors on project
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.8304660Z 07:06:49.830 INFO  Sensor PythonArchitectureSensor [architecture]
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.8748776Z 07:06:49.874 INFO  Found 1 potential Udg file location(s) for "py" in "/home/runner/work/webscraper_ai/webscraper_ai/.scannerwork"
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.8750573Z 07:06:49.874 INFO  - /home/runner/work/webscraper_ai/webscraper_ai/.scannerwork/architecture/py
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.8842963Z 07:06:49.883 INFO  Architecture analysis is enabled with the following features: legacy
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.8886991Z 07:06:49.888 INFO  * Protobuf reading starting | memory total=970 | free=402 | used=567 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.8891559Z 07:06:49.888 INFO  * Reading SonarArchitecture UDG data from directory "/home/runner/work/webscraper_ai/webscraper_ai/.scannerwork/architecture/py"
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.9958290Z 07:06:49.995 INFO  * Files successfully loaded: "6" out of "6"
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.9962474Z 07:06:49.995 INFO  * Purging externals (components not scanned) from graphs
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.9963163Z 07:06:49.995 INFO  * Purging excluded nodes from graphs
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:49.9981417Z 07:06:49.997 INFO  * Protobuf reading complete | memory total=970 | free=390 | used=579 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.0243014Z 07:06:50.023 INFO  * Build architecture.graph.py.file_graph.default_perspective hierarchy graph complete (filtered=false) | memory total=970 | free=385 | used=584 (MB)
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.0367076Z 07:06:50.033 INFO  Sensor PythonArchitectureSensor [architecture] (done) | time=203ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.0368188Z 07:06:50.034 INFO  Sensor Zero Coverage Sensor
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.0368896Z 07:06:50.034 INFO  Sensor Zero Coverage Sensor (done) | time=0ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.1556718Z 07:06:50.154 INFO  ------------- Gather SCA dependencies on project
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.1558570Z 07:06:50.155 INFO  Checking if SCA is enabled for organization baluchebolu1975
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.4633089Z 07:06:50.462 INFO  Dependency analysis skipped
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.4661565Z 07:06:50.465 INFO  CPD Executor Calculating CPD for 6 files
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.4748403Z 07:06:50.474 INFO  CPD Executor CPD calculation finished (done) | time=9ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.4761859Z 07:06:50.475 INFO  SCM Publisher SCM provider for this project is: git
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.4767283Z 07:06:50.476 INFO  SCM Publisher 6 source files to be analyzed
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:50.7612140Z 07:06:50.760 INFO  SCM Publisher 6/6 source files have been analyzed (done) | time=284ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:57.3133235Z 07:06:57.312 INFO  Analysis report generated in 6550ms, dir size=390 KB
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:57.3310783Z 07:06:57.328 INFO  Analysis report compressed in 16ms, zip size=87 KB
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:57.7954537Z 07:06:57.794 INFO  Analysis report uploaded in 466ms
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:57.7969408Z 07:06:57.796 INFO  ------------- Upload SCA dependency files
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:58.7281557Z 07:06:58.727 INFO  Sensor cache published successfully
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:58.7282722Z 07:06:58.727 INFO  ------------- Check Quality Gate status
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:06:58.7283345Z 07:06:58.728 INFO  Waiting for the analysis report to be processed (max 300s)
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:07:04.4161905Z 07:07:04.414 ERROR QUALITY GATE STATUS: FAILED - View details on https://sonarcloud.io/dashboard?id=baluchebolu1975_webscraper_ai&branch=main
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:07:04.7469807Z 07:07:04.746 INFO  EXECUTION FAILURE
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:07:04.7478865Z 07:07:04.747 INFO  Total time: 33.708s
+SonarCloud Scan	SonarCloud Scan	2026-02-23T07:07:05.0689234Z ##[error]Action failed: The process '/opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64/bin/sonar-scanner' failed with exit code 3
